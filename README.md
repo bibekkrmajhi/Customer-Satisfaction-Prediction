@@ -25,6 +25,7 @@ To make the solution business-friendly and practical, the problem was reframed a
 
 #### Rating	Category
 **1–2	Unhappy**
+
 **3–5	Not Unhappy**
 
 ## 🗂️ Dataset Description
@@ -143,6 +144,7 @@ By reframing the problem into binary classification, the solution becomes more i
 **[Bibek Kumar Majhi]**
 
 Machine Learning / Data Analytics Intern
+
 
 
 
