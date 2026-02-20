@@ -51,65 +51,65 @@ Only tickets with available satisfaction ratings were used for modeling.
 
 ### 🧹 Data Preprocessing & Feature Engineering
 
-Key preprocessing steps:
+**Key preprocessing steps:**
 
-Removed irrelevant columns (IDs, names, emails, text fields)
+- Removed irrelevant columns (IDs, names, emails, text fields)
 
-Handled missing values
+- Handled missing values
 
-Converted date-time columns to resolution duration (in hours)
+- Converted date-time columns to resolution duration (in hours)
 
-Applied ordinal encoding for ordered features (Ticket Priority)
+- Applied ordinal encoding for ordered features (Ticket Priority)
 
-Applied one-hot encoding for non-ordered categorical features
+- Applied one-hot encoding for non-ordered categorical features
 
-📊 Exploratory Data Analysis (EDA)
+### 📊 Exploratory Data Analysis (EDA)
 
-EDA was performed to understand:
+**EDA was performed to understand:**
 
-Distribution of customer satisfaction ratings
+- Distribution of customer satisfaction ratings
 
-Relationship between ticket priority and satisfaction
+- Relationship between ticket priority and satisfaction
 
-Ticket trends across different channels
+- Ticket trends across different channels
 
-Impact of resolution time on customer satisfaction
+- Impact of resolution time on customer satisfaction
 
-Visualizations such as bar plots, box plots, and histograms were used to extract insights.
+- Visualizations such as bar plots, box plots, and histograms were used to extract insights.
 
-🤖 Model Building
+### 🤖 Model Building
 
 Model Used: Random Forest Classifier
 
-Why Random Forest?
+**Why Random Forest?**
 
-Handles non-linear relationships well
+- Handles non-linear relationships well
 
-Works effectively with mixed feature types
+- Works effectively with mixed feature types
 
-Robust to noise and outliers
+- Robust to noise and outliers
 
-A pipeline was created to ensure preprocessing and modeling happen together.
+- A pipeline was created to ensure preprocessing and modeling happen together.
 
-📈 Model Evaluation
+### 📈 Model Evaluation
 
-The model was evaluated using:
+#### The model was evaluated using:
 
-Accuracy
+**Accuracy**
 
-Precision, Recall, and F1-Score
+**Precision, Recall, and F1-Score**
 
-Confusion Matrix
+**Confusion Matrix**
 
-Final Result:
+#### Final Result:
 
-Accuracy: ~57%
+**Accuracy: ~57%**
 
 The model performs significantly better than random guessing and is suitable for real-world noisy data.
 
 Special focus was given to identifying unhappy customers, which is most important from a business perspective.
 
-💾 Model Saving & Usage
+### 💾 Model Saving & Usage
 
 The trained model was saved using joblib, allowing reuse without retraining.
 
@@ -143,4 +143,5 @@ By reframing the problem into binary classification, the solution becomes more i
 [Bibek Kumar Majhi]
 
 Machine Learning / Data Analytics Intern
+
 
