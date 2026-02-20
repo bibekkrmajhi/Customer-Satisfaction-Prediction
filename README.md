@@ -1,8 +1,8 @@
 # Customer Satisfaction Prediction
 
-Data Science Internship Project
+## Data Science Internship Project
 
-📌 Project Overview
+### 📌 Project Overview
 
 Customer satisfaction is a critical metric for any business.
 This project focuses on analyzing customer support ticket data and building a machine learning model to predict whether a customer is Unhappy or Not Unhappy based on their support interaction.
@@ -16,7 +16,7 @@ The project follows the complete Data Science lifecycle:
 5. Model Evaluation
 6. Model Saving & Prediction
 
-🎯 Problem Statement
+### 🎯 Problem Statement
 
 Initially, customer satisfaction ratings were available on a 1–5 scale.
 However, predicting exact ratings is difficult due to the subjective nature of customer feedback.
@@ -27,35 +27,29 @@ Rating	Category
 1–2	Unhappy
 3–5	Not Unhappy
 
-🗂️ Dataset Description
+## 🗂️ Dataset Description
 
 The dataset contains customer support ticket information, including:
-
 Customer demographic details
-
 Product purchased
-
 Ticket type, subject, priority, and channel
-
 First response time & resolution time
-
 Customer satisfaction rating (1–5)
-
 Only tickets with available satisfaction ratings were used for modeling.
 
-🔧 Tools & Technologies Used
+### 🔧 Tools & Technologies Used
 
-Python
+- Python
 
-Pandas & NumPy – Data manipulation
+- Pandas & NumPy – Data manipulation
 
-Matplotlib & Seaborn – Data visualization
+- Matplotlib & Seaborn – Data visualization
 
-Scikit-learn – Machine learning
+- Scikit-learn – Machine learning
 
-Joblib – Model saving & loading
+- Joblib – Model saving & loading
 
-🧹 Data Preprocessing & Feature Engineering
+### 🧹 Data Preprocessing & Feature Engineering
 
 Key preprocessing steps:
 
@@ -149,3 +143,4 @@ By reframing the problem into binary classification, the solution becomes more i
 [Bibek Kumar Majhi]
 
 Machine Learning / Data Analytics Intern
+
